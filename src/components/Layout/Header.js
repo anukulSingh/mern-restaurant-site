@@ -6,7 +6,7 @@ const Header = ({ onShowcart }) => {
     return (
         <>
            <header className={classes.header}>
-                <h1>MealsHub</h1>
+                <h1>MealsOrder</h1>
                 <HeaderCartButton onClick={onShowcart} />
             </header> 
             <div className={classes["main-img"]}>
